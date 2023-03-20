@@ -218,6 +218,15 @@ font-weight: 700;
 font-style: italic;
 }
 
+pdf {
+  display: block;
+    font-size: 1em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 120px;
+    margin-inline-end: 120px;
+align-content: center;
+}
 
 .wsite-multicol {
     position: relative;
