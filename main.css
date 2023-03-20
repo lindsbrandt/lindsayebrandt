@@ -256,6 +256,8 @@ align-content: center;
 /* Hide the images by default */
 .mySlides {
   display: none;
+  position: relative;
+  width: 90%;
   align-content: center;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
@@ -271,14 +273,33 @@ align-content: center;
 }
 
 /* Next & previous buttons */
-.prev,
+.prev{
+  cursor: pointer;
+  position:absolute;
+  top: 50%;
+  left: auto;
+  width: auto;
+  padding: 50px;
+  margin-top: -50px;
+margin-left: -50px;
+
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
 .next {
   cursor: pointer;
-  position: absolute;
-  top: 40%;
+  position:absolute;
+  top: 50%;
+  left: auto;
   width: auto;
-  padding: 1px;
+  padding: 50px;
   margin-top: -50px;
+margin-right: 50px;
+
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -318,10 +339,6 @@ align-content: center;
   width: 16.66%;
 }
 
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
 
 .active,
 .demo:hover {
