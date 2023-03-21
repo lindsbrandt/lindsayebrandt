@@ -175,10 +175,13 @@ align-content: center;
 .wsite-image {
     position: relative;
 }
-
-
-
-.site-image-hov {
+wsite-image-wig{
+  position: relative;
+}
+wsite-image-wig:hover{
+  position: relative;
+}
+.wsite-image-hov {
   position: relative;
 
 }
