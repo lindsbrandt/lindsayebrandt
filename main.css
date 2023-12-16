@@ -15,10 +15,9 @@ body{
   width: 100%;
     height: 100%;
     color: #3e3e3e;
-    font-family: "kepler-std", serif;
-
-    font-size: 16px;
-    font-weight: 400;
+    font-family: "mencken-std-head-compress", sans-serif;
+font-weight: 400;
+font-style: normal;
     line-height: 25px;
 }
 
@@ -55,10 +54,9 @@ div{
     color: #000000;
     text-align: center;
     letter-spacing: .04em;
-    font-family: "kepler-std", serif;
-
-    font-size: 40px;
-    font-weight: 700;
+    font-family: "mencken-std-head-compress", sans-serif;
+font-weight: 400;
+font-style: normal;
     line-height: normal;
 }
 
@@ -95,9 +93,9 @@ a{
   color: #2E294E;
   text-decoration: none;
   font-size: 20px;
-  font-family: "kepler-std", serif;
-  font-weight: 700;
-  font-style: italic;
+  font-family: "mencken-std-head-compress", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 .nav ul li {
     position: relative;
@@ -109,18 +107,18 @@ a{
   color: #2E294E;
   text-decoration: none;
   font-size: 18px;
-  font-family: "kepler-std", serif;
-  font-weight: 700;
-  font-style: italic;
+  font-family: "mencken-std-head-compress", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .wsite-title{
   color: #2E294E;
   text-decoration: none;
   font-size: 26px;
-  font-family: "kepler-std", serif;
-font-weight: 700;
-font-style: italic;
+  font-family: "mencken-std-head-compress", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 .content-wrap {
